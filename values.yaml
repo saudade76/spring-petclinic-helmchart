@@ -2,7 +2,7 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: 3.35.166.215:30443/library/samples/spring-petclinic

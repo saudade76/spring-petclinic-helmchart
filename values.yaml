@@ -40,7 +40,7 @@ service:
   type: NodePort
   port: 8080
   targetPort: 8080
-  nodePort: 30900
+  nodePort: 30800
 
 ingress:
   enabled: false

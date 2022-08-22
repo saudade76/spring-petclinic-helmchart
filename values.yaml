@@ -5,7 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: 3.37.129.89:30443/library/samples/spring-petclinic
+  #repository: 3.37.129.89:30443/library/samples/spring-petclinic
+  repository: springcommunity/spring-framework-petclinic
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: v1.0.1
